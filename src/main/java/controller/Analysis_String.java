@@ -11,13 +11,13 @@ import view.Menu;
  * @author DAO
  */
 public class Analysis_String {
-
-    public static void main(String[] args) {
+    public Analysis_String(){};
+    public void run(){
         Menu.viewInput();
         Scanner inputScanner = new Scanner(System.in);
         String inputString = inputScanner.nextLine();
         Menu.viewResult();
         Algorithm.getNumber(inputString);
         Algorithm.getCharacter(inputString);
-    }
+    } 
 }
